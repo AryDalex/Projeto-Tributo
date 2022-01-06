@@ -1,0 +1,194 @@
+body {
+    background: linear-gradient(#575656, #4b2a66);
+    color: #FFFAFA;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 5em 5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.cabecario {
+    text-decoration: none;
+    color: #FFFAFA;
+    font-size: 1.2em;
+    transition: .3s;
+}
+
+.cabecario:hover {
+    color: #6b0fff
+}
+
+.sobre {
+    margin: 0 2em;
+    
+}
+
+.principal {
+    margin-top: 2em;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: bold;
+    padding-top: 2em;
+}
+
+.chadwick_principal {
+    background: #414141;
+}
+
+.titulo_principal {
+    border-top: 2em;
+    background: linear-gradient(#575656 ,#414141);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 1em 6em;
+    font-size: 21px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.medidas {
+    box-shadow: 4px 4px 4px #353535;
+    border-radius: 9px;
+    margin: 2em;  
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+td, .dados {
+	padding: 1.3em 3em;
+    font-size: 18px;
+}
+
+.titulo_dados {
+    text-align: center;
+}
+
+.mapas {
+    background: linear-gradient(#414141, #4b2a66);
+    display: flex;
+    justify-content: center;
+}
+
+.mapa {
+    display: inline-block;
+    padding: 2em 1.3em;
+    align-content: center;
+}
+
+.indice_video {
+    background: linear-gradient(#4b2a66 , #51405e);
+}
+
+.indice {
+    display: inline-block;
+    vertical-align: top;
+    padding: 3em 7em;
+}
+
+.indice_titulo {
+    margin-bottom: 1.2em;
+}
+
+ul {
+    margin: 1em 5em;
+    font-size: 19px;
+}
+
+li {
+    margin: 1.3em 0;
+}
+
+li:before {
+    content: "🎭 ";
+}
+
+.video {
+    box-shadow: 4px 4px 4px #414141;
+    border-radius: 9px;
+    margin-top: 3em;
+}
+
+.social {
+    font-size: 21px;
+}
+
+td a {
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+td a:hover {
+    font-weight: bold;
+}
+
+.paragrafo_final {
+    text-align: center;
+    padding: 3em 0;
+}
+
+a {
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+footer {
+    background-image: url("../img/chadwick_rodape.jpg");
+    text-align: center;
+    padding: 6em 0;
+}
+
+h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 7em;
+}
+
+.rodape_texto {
+    font-size: 15px;
+}
+
+/*filme*/
+
+.titulo_filmografia {
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2em 0;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    padding: 3em 0;
+}
